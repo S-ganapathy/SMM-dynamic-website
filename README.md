@@ -27,6 +27,10 @@ http://3.27.46.173/php%20pages/admin.php
 
  <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/> <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/> <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/> <img width="50" height="50" src="https://img.icons8.com/ios/50/php.png" alt="php"/>    <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>     <img width="48" height="48" src="https://img.icons8.com/color/48/amazon-web-services.png" alt="amazon-web-services"/>
 
+ ## Screenshots
+
+ <img width="300" height="200" src="https://github.com/S-ganapathy/SMM-dynamic-website/blob/main/images/ssm%201.PNG" alt="webpage-screenshot"> <img width="300" height="200" src="https://github.com/S-ganapathy/SMM-dynamic-website/blob/main/images/ssm%203.PNG" alt="webpage-screenshot"> <img width="300" height="200" src="https://github.com/S-ganapathy/SMM-dynamic-website/blob/main/images/ssm%205.PNG" alt="webpage-screenshot"> <img width="300" height="200" src="https://github.com/S-ganapathy/SMM-dynamic-website/blob/main/images/ssm%206.PNG" alt="webpage-screenshot"> <img width="300" height="200" src="https://github.com/S-ganapathy/SMM-dynamic-website/blob/main/images/ssm%207.PNG" alt="webpage-screenshot"> <img width="300" height="200" src="https://github.com/S-ganapathy/SMM-dynamic-website/blob/main/images/ssm%208.PNG" alt="webpage-screenshot">
+
 ## Setup and Installation
 
 To set up this project locally, follow these steps:
