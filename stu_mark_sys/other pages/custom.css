@@ -1,0 +1,259 @@
+*{
+    cursor: pointer;
+    transition: all 1s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+/* index.php */
+.background_div{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* amdin.php */
+/* #bgdark{
+    background-image: url("/images/other_page_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.border{
+    height: 150px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    background-color:gainsboro;
+    cursor: pointer;
+}
+
+.border:hover{
+    box-shadow: 0px 0px 5px 3px darkturquoise;
+}
+
+#adduserformid{ 
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+    
+}
+#user_records{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+    
+}
+
+#users_table_div{
+    width: 100%;
+    overflow: auto;
+}
+#update_question{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+}
+
+/* page_1 */
+
+#class_table{
+    overflow: auto;
+}
+#table_class{
+    width: 50%;
+}
+
+#show_batch{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;  
+}
+
+#batch_div{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 25px;
+    padding: 40px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    width: 768px;
+    height: 400px;
+    
+}
+
+.batch_year{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+} 
+
+.batch_year:hover{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(18, 18, 92);
+    scale: 0.9;
+}
+
+#title_close{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+#batch_div::-webkit-scrollbar{
+    display: none;
+}
+
+#addrecform{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(10px);
+    display: none;
+}
+
+
+/* viewrecords.php */
+
+#record_table{
+    height: 600px;
+    overflow: auto;
+}
+
+#record_table::-webkit-scrollbar{
+    display: none;
+}
+
+#update_col_div{
+    display: none;
+    position: absolute;
+    left: 45%;
+    top: 100%;
+    transform: translate(-50%,-50%);
+    /* backdrop-filter: blur(10px); */
+    background-color: ghostwhite;
+    border-radius: 5px;
+    
+}
+
+/* get_column_std.php */
+
+#update_col{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    gap: 5px;
+    padding: 30px 0 30px 0;
+}
+
+
+/* media query */
+
+
+@media only screen and (min-width: 320px) and (max-width: 576px){
+
+    /* admin.php */
+
+    #adduserformid{
+        width: 100%;
+    }
+    #user_records{
+        width: 100%;
+    }
+    #update_question{
+        width: 92%;
+    }
+
+    /* page_1 */
+
+    .border{
+        height: 50px;
+        font-size: small;
+    }
+    #dash_div{
+        gap: 10px;
+    }
+
+    #table_class{
+        width: 100%;
+    }
+
+    .container{
+        height: auto;
+    }
+
+    #show_batch{
+        display: none;
+        position: absolute;
+        overflow: auto;
+        width: auto;
+        left: 0;
+        top: 15%;
+        transform: none;
+        backdrop-filter: blur(10px);
+        border-radius: 5px;  
+    }
+
+    .batch_year{
+        height: 26px;
+        width: 40px;
+    }
+
+    #batch_div{
+        width: 100%;
+        height: auto;
+    }
+
+    #addrecform{
+        width: 100%;
+    }
+    #page_btns{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    /* get_column_std */
+
+    #update_col_div{
+        backdrop-filter: blur(10px);
+        left: 50%;
+        width: 100%;
+    }
+
+    #update_col{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
