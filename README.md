@@ -25,12 +25,7 @@ http://3.27.46.173/php%20pages/admin.php
 
 ## Technologies Used
 
- <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
- <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
- <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/>
- <img width="100" height="100" src="https://img.icons8.com/officel/100/php-logo.png" alt="php-logo"/>
- <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
- <img width="48" height="48" src="https://img.icons8.com/color/48/amazon-web-services.png" alt="amazon-web-services"/>
+ <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/> <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/> <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/> <img width="50" height="50" src="https://img.icons8.com/ios/50/php.png" alt="php"/>    <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>     <img width="48" height="48" src="https://img.icons8.com/color/48/amazon-web-services.png" alt="amazon-web-services"/>
 
 ## Setup and Installation
 
